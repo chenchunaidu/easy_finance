@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_firebase/components/calendar-form.dart';
+import 'package:easy_finance/components/calendar-form.dart';
 
 class Calendar extends StatelessWidget {
   const Calendar({Key? key}) : super(key: key);

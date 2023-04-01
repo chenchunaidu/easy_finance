@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_firebase/components/common/form/index.dart';
-import 'package:flutter_firebase/theme/font.dart';
+import 'package:easy_finance/components/common/form/index.dart';
+import 'package:easy_finance/theme/font.dart';
 import 'package:form_validator/form_validator.dart';
 import 'package:get/get.dart';
 import 'common/form/custom-form-field.dart';

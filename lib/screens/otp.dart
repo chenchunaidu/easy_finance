@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_firebase/components/auth-info.dart';
-import 'package:flutter_firebase/components/otp-form.dart';
-import 'package:flutter_firebase/components/common/vstack.dart';
-import 'package:flutter_firebase/theme/font.dart';
-import 'package:flutter_firebase/theme/inset.dart';
+import 'package:easy_finance/components/auth-info.dart';
+import 'package:easy_finance/components/otp-form.dart';
+import 'package:easy_finance/components/common/vstack.dart';
+import 'package:easy_finance/theme/font.dart';
+import 'package:easy_finance/theme/inset.dart';
 import 'package:get/get.dart';
 
 class OTP extends StatefulWidget {

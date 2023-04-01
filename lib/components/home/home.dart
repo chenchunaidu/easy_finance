@@ -1,10 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_firebase/components/common/image.dart';
-import 'package:flutter_firebase/components/common/vstack.dart';
-import 'package:flutter_firebase/components/home/home-model.dart';
-import 'package:flutter_firebase/theme/font.dart';
-import 'package:flutter_firebase/theme/inset.dart';
+import 'package:easy_finance/components/common/image.dart';
+import 'package:easy_finance/components/common/vstack.dart';
+import 'package:easy_finance/components/home/home-model.dart';
+import 'package:easy_finance/theme/font.dart';
+import 'package:easy_finance/theme/inset.dart';
 
 import '../firebase/firebase-component-wrapper.dart';
 

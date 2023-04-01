@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_firebase/theme/font.dart';
+import 'package:easy_finance/theme/font.dart';
 
 InputDecorationTheme inputDecorationTheme = InputDecorationTheme(
     errorBorder: OutlineInputBorder(

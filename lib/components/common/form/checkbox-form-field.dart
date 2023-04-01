@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_firebase/components/common/hstack.dart';
-import 'package:flutter_firebase/theme/inset.dart';
+import 'package:easy_finance/components/common/hstack.dart';
+import 'package:easy_finance/theme/inset.dart';
 
 import '../vstack.dart';
 

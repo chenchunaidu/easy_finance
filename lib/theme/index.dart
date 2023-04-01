@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_firebase/theme/color.dart';
-import 'package:flutter_firebase/theme/input.dart';
+import 'package:easy_finance/theme/color.dart';
+import 'package:easy_finance/theme/input.dart';
 
 ThemeData darkTheme = ThemeData(
     brightness: Brightness.dark,

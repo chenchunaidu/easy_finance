@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_firebase/components/common/vstack.dart';
-import 'package:flutter_firebase/theme/font.dart';
+import 'package:easy_finance/components/common/vstack.dart';
+import 'package:easy_finance/theme/font.dart';
 
 class AuthInfo extends StatelessWidget {
   const AuthInfo({Key? key, this.label = '', this.subLabel = ''})

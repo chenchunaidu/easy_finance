@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_firebase/components/common/form/validators.dart';
+import 'package:easy_finance/components/common/form/validators.dart';
 
 class CustomDateFormFieldModel {
   final String? placeholder;
