@@ -1,0 +1,5 @@
+{
+  "cmake.configureOnOpen": false,
+  "cSpell.words": ["Firestore"],
+  "java.configuration.updateBuildConfiguration": "interactive"
+}
