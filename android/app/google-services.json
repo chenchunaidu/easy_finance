@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "679415946256",
-    "project_id": "flutter-firebase-c1da0",
-    "storage_bucket": "flutter-firebase-c1da0.appspot.com"
+    "project_number": "1003242235892",
+    "project_id": "easy-finance-d7f01",
+    "storage_bucket": "easy-finance-d7f01.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:679415946256:android:e1a93602905315b28a3e95",
+        "mobilesdk_app_id": "1:1003242235892:android:874274b61e116a4e9c3ba1",
         "android_client_info": {
           "package_name": "com.example.easy_finance"
         }
       },
       "oauth_client": [
         {
-          "client_id": "679415946256-tnjmkspt8973h4fcql9c31h678nb7h2o.apps.googleusercontent.com",
+          "client_id": "1003242235892-307er6ioqtqp7dcrbonkl7bl52djsnb6.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDTtVobGNNVD60m6T9hV8V_QlbIAoeBj5Q"
+          "current_key": "AIzaSyBrRbzaomESbrL1nSgAccylOw5V6G3f-oQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "679415946256-tnjmkspt8973h4fcql9c31h678nb7h2o.apps.googleusercontent.com",
+              "client_id": "1003242235892-307er6ioqtqp7dcrbonkl7bl52djsnb6.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

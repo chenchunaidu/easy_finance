@@ -44,40 +44,40 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBIYOUbZBvdCnbSXFt5MvkE3Lq8Xn32zmE',
-    appId: '1:679415946256:web:424bb34812b4571c8a3e95',
-    messagingSenderId: '679415946256',
-    projectId: 'flutter-firebase-c1da0',
-    authDomain: 'flutter-firebase-c1da0.firebaseapp.com',
-    storageBucket: 'flutter-firebase-c1da0.appspot.com',
-    measurementId: 'G-SV1FR9B1JX',
+    apiKey: 'AIzaSyA_EOW3DVOd1sDvsosVy1AswbI99t-LqqM',
+    appId: '1:1003242235892:web:f9122e3520efd57e9c3ba1',
+    messagingSenderId: '1003242235892',
+    projectId: 'easy-finance-d7f01',
+    authDomain: 'easy-finance-d7f01.firebaseapp.com',
+    storageBucket: 'easy-finance-d7f01.appspot.com',
+    measurementId: 'G-KEZSM0CZHL',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyDTtVobGNNVD60m6T9hV8V_QlbIAoeBj5Q',
-    appId: '1:679415946256:android:e1a93602905315b28a3e95',
-    messagingSenderId: '679415946256',
-    projectId: 'flutter-firebase-c1da0',
-    storageBucket: 'flutter-firebase-c1da0.appspot.com',
+    apiKey: 'AIzaSyBrRbzaomESbrL1nSgAccylOw5V6G3f-oQ',
+    appId: '1:1003242235892:android:874274b61e116a4e9c3ba1',
+    messagingSenderId: '1003242235892',
+    projectId: 'easy-finance-d7f01',
+    storageBucket: 'easy-finance-d7f01.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBgKX0R8PXPa3EwtJh4WFNevayuGPuD05Q',
-    appId: '1:679415946256:ios:7bfe7722d344c7868a3e95',
-    messagingSenderId: '679415946256',
-    projectId: 'flutter-firebase-c1da0',
-    storageBucket: 'flutter-firebase-c1da0.appspot.com',
-    iosClientId: '679415946256-3gk2ttmj8o4dga0ak6n1q0mi8ac5c3eq.apps.googleusercontent.com',
+    apiKey: 'AIzaSyA2XbVFtv-Nc6OJuqSXVKiVM6Zah0SetwY',
+    appId: '1:1003242235892:ios:8a334f77a51135239c3ba1',
+    messagingSenderId: '1003242235892',
+    projectId: 'easy-finance-d7f01',
+    storageBucket: 'easy-finance-d7f01.appspot.com',
+    iosClientId: '1003242235892-1npm57ph2c49l3tvf8drt349c7leej44.apps.googleusercontent.com',
     iosBundleId: 'com.example.flutterBiolerlate',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBgKX0R8PXPa3EwtJh4WFNevayuGPuD05Q',
-    appId: '1:679415946256:ios:7bfe7722d344c7868a3e95',
-    messagingSenderId: '679415946256',
-    projectId: 'flutter-firebase-c1da0',
-    storageBucket: 'flutter-firebase-c1da0.appspot.com',
-    iosClientId: '679415946256-3gk2ttmj8o4dga0ak6n1q0mi8ac5c3eq.apps.googleusercontent.com',
+    apiKey: 'AIzaSyA2XbVFtv-Nc6OJuqSXVKiVM6Zah0SetwY',
+    appId: '1:1003242235892:ios:8a334f77a51135239c3ba1',
+    messagingSenderId: '1003242235892',
+    projectId: 'easy-finance-d7f01',
+    storageBucket: 'easy-finance-d7f01.appspot.com',
+    iosClientId: '1003242235892-1npm57ph2c49l3tvf8drt349c7leej44.apps.googleusercontent.com',
     iosBundleId: 'com.example.flutterBiolerlate',
   );
 }
