@@ -6,8 +6,6 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:easy_finance/layout/get-page-wrapper.dart';
 import 'package:easy_finance/screens/account.dart';
-import 'package:easy_finance/screens/calendar.dart';
-import 'package:easy_finance/screens/content.dart';
 import 'package:easy_finance/screens/home.dart';
 import 'package:easy_finance/screens/login.dart';
 import 'package:easy_finance/screens/otp.dart';
@@ -84,8 +82,6 @@ class _MyAppState extends State<MyApp> {
       getPages: getPageWrapper([
         PageWrapper(path: '/login', child: Login(), navbar: false),
         PageWrapper(path: '/home', child: const HomeScreen()),
-        PageWrapper(path: '/content', child: const Content()),
-        PageWrapper(path: '/calendar', child: const Calendar()),
         PageWrapper(path: '/profile', child: const Account()),
         PageWrapper(path: "/otp", child: const OTP(), navbar: false)
       ]),
