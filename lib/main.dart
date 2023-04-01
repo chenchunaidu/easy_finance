@@ -75,7 +75,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      locale: Locale(storage.read("locale-language") ?? 'hi',
+      locale: Locale(storage.read("locale-language") ?? 'en',
           storage.read("locale-country") ?? 'IN'),
       translations: Messages(),
       initialRoute: '/login',
@@ -89,7 +89,7 @@ class _MyAppState extends State<MyApp> {
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       darkTheme: darkTheme,
-      home: HomeScreen(),
+      // home: HomeScreen(),
     );
   }
 }

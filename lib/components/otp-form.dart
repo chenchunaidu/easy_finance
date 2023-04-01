@@ -14,7 +14,6 @@ var otpForm = [
     "name": "otp",
     "placeholder": "OTP",
     "validator": ValidationBuilder(requiredMessage: "OTP is required").build(),
-    "helperText": "OTP is 12345 😃",
     "autocorrect": false,
     "obscureText": true,
     "keyboardType": TextInputType.number
