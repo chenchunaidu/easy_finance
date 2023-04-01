@@ -30,5 +30,20 @@ const Map<int, Color> redSwatch = {
 
 MaterialColor red = new MaterialColor(0xFFEF4444, redSwatch);
 
+const Map<int, Color> greenSwatch = {
+  50: Color.fromRGBO(240, 253, 244, 1),
+  100: Color.fromRGBO(220, 252, 231, 1),
+  200: Color.fromRGBO(187, 247, 208, 1),
+  300: Color.fromRGBO(134, 239, 172, 1),
+  400: Color.fromRGBO(74, 222, 128, 1),
+  500: Color.fromRGBO(34, 197, 94, 1),
+  600: Color.fromRGBO(22, 163, 74, 1),
+  700: Color.fromRGBO(21, 128, 61, 1),
+  800: Color.fromRGBO(22, 101, 52, 1),
+  900: Color.fromRGBO(20, 83, 45, 1)
+};
+
+MaterialColor green = new MaterialColor(0xFF4ADE80, greenSwatch);
+
 //TODO: make it runtime
-MaterialColor brand = red;
+MaterialColor brand = green;
