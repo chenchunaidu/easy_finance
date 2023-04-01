@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 import 'package:easy_finance/components/common/vstack.dart';
 import '../../../theme/inset.dart';

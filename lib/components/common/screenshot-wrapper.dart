@@ -39,7 +39,10 @@ class _ScreenshotWrapperState extends State<ScreenshotWrapper> {
     return VStack(children: [
       Screenshot(
         controller: screenshotController,
-        child: widget.child,
+        child: Container(
+          child: widget.child,
+          color: Colors.grey[850],
+        ),
       ),
       OutlinedButton(onPressed: onPressed, child: Text("Share"))
     ]);
