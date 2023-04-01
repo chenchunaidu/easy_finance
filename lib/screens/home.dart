@@ -1,3 +1,4 @@
+import 'package:easy_finance/components/common/screenshot-wrapper.dart';
 import 'package:flutter/material.dart';
 import 'package:easy_finance/components/common/vstack.dart';
 import 'package:easy_finance/components/interest-form.dart';
@@ -9,9 +10,10 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const SingleChildScrollView(
-        child: VStack(spacing: 0.0, children: [
+        child: ScreenshotWrapper(
+            child: VStack(spacing: 0.0, children: [
       InterestForm(),
       TranslateButtons(),
-    ]));
+    ])));
   }
 }
