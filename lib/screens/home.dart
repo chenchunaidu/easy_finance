@@ -10,10 +10,9 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const SingleChildScrollView(
-        child: ScreenshotWrapper(
-            child: VStack(spacing: 0.0, children: [
+        child: VStack(spacing: 0.0, children: [
       InterestForm(),
       TranslateButtons(),
-    ])));
+    ]));
   }
 }

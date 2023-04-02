@@ -1,3 +1,5 @@
+import 'package:easy_finance/components/common/hstack.dart';
+import 'package:easy_finance/components/common/screenshot-wrapper.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:easy_finance/components/common/vstack.dart';
@@ -78,18 +80,22 @@ class _InterestFormState extends State<InterestForm> {
                 },
               ),
               interestData != null
-                  ? VStack(children: [
-                      InterestPreview(
-                        label: "Simple".tr,
-                        interestPreviewData:
-                            interestData!.getSimpleInterestPreview(),
-                      ),
-                      InterestPreview(
-                        label: "Compound".tr,
-                        interestPreviewData:
-                            interestData!.getCompoundInterestPreview(),
-                      )
-                    ])
+                  ? ScreenshotWrapper(
+                      child: Container(
+                          padding: const EdgeInsets.symmetric(
+                              vertical: Insets.lg, horizontal: Insets.sm),
+                          child: VStack(children: [
+                            InterestPreview(
+                              label: "Simple".tr,
+                              interestPreviewData:
+                                  interestData!.getSimpleInterestPreview(),
+                            ),
+                            InterestPreview(
+                              label: "Compound".tr,
+                              interestPreviewData:
+                                  interestData!.getCompoundInterestPreview(),
+                            )
+                          ])))
                   : Container()
             ]));
   }

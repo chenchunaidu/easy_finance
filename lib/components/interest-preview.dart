@@ -30,6 +30,11 @@ class InterestPreview extends StatelessWidget {
               fontWeight: FontWeight.w600, fontSize: 16, color: brand),
         ),
         InterestPreviewLineItem(
+            label: "startDatePlaceholder".tr,
+            value: interestPreviewData.startDate),
+        InterestPreviewLineItem(
+            label: "endDatePlaceholder".tr, value: interestPreviewData.endDate),
+        InterestPreviewLineItem(
             label: "Principle Amount".tr,
             value: interestPreviewData.principleAmount),
         InterestPreviewLineItem(

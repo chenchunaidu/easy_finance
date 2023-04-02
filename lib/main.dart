@@ -78,14 +78,14 @@ class _MyAppState extends State<MyApp> {
       locale: Locale(storage.read("locale-language") ?? 'en',
           storage.read("locale-country") ?? 'IN'),
       translations: Messages(),
-      initialRoute: '/login',
+      initialRoute: '/home',
       getPages: getPageWrapper([
-        PageWrapper(path: '/login', child: Login(), navbar: false),
+        // PageWrapper(path: '/login', child: Login(), navbar: false),
         PageWrapper(path: '/home', child: const HomeScreen()),
         PageWrapper(path: '/profile', child: const Account()),
-        PageWrapper(path: "/otp", child: const OTP(), navbar: false)
+        // PageWrapper(path: "/otp", child: const OTP(), navbar: false)
       ]),
-      routingCallback: routingCallback,
+      // routingCallback: routingCallback,
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       darkTheme: darkTheme,

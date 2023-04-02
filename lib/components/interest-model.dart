@@ -3,6 +3,7 @@
 import 'package:get/get.dart';
 import 'package:easy_finance/components/interest-preview-model.dart';
 import 'dart:math';
+import 'package:intl/intl.dart';
 
 class InterestModel {
   final String startDate;
@@ -97,13 +98,21 @@ class InterestModel {
         .toStringAsFixed(2);
   }
 
+  String formatDate(String date) {
+    var formattedDate = DateTime.parse(date);
+    final DateFormat formatter = DateFormat('dd MMM, yyyy');
+    return formatter.format(formattedDate);
+  }
+
   InterestPreviewModel getSimpleInterestPreview() {
     formattedDiff();
     return InterestPreviewModel(
         timePeriod: formattedDiff(),
         totalAmount: getSimpleTotalValue(),
         principleAmount: principleAmount.toString(),
-        interestRate: interestRate.toString());
+        interestRate: interestRate.toString(),
+        startDate: formatDate(startDate),
+        endDate: formatDate(endDate));
   }
 
   InterestPreviewModel getCompoundInterestPreview() {
@@ -111,6 +120,8 @@ class InterestModel {
         timePeriod: formattedDiff(),
         totalAmount: getCompoundTotalValue(),
         principleAmount: principleAmount.toString(),
-        interestRate: interestRate.toString());
+        interestRate: interestRate.toString(),
+        startDate: formatDate(startDate),
+        endDate: formatDate(endDate));
   }
 }
