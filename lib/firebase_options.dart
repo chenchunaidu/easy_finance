@@ -67,8 +67,9 @@ class DefaultFirebaseOptions {
     messagingSenderId: '1003242235892',
     projectId: 'easy-finance-d7f01',
     storageBucket: 'easy-finance-d7f01.appspot.com',
-    iosClientId: '1003242235892-1npm57ph2c49l3tvf8drt349c7leej44.apps.googleusercontent.com',
-    iosBundleId: 'com.example.flutterBiolerlate',
+    iosClientId:
+        '1003242235892-1npm57ph2c49l3tvf8drt349c7leej44.apps.googleusercontent.com',
+    iosBundleId: 'com.example.com.solodreamers.easy_finance',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
@@ -77,7 +78,8 @@ class DefaultFirebaseOptions {
     messagingSenderId: '1003242235892',
     projectId: 'easy-finance-d7f01',
     storageBucket: 'easy-finance-d7f01.appspot.com',
-    iosClientId: '1003242235892-1npm57ph2c49l3tvf8drt349c7leej44.apps.googleusercontent.com',
-    iosBundleId: 'com.example.flutterBiolerlate',
+    iosClientId:
+        '1003242235892-1npm57ph2c49l3tvf8drt349c7leej44.apps.googleusercontent.com',
+    iosBundleId: 'com.example.com.solodreamers.easy_finance',
   );
 }
